@@ -1,0 +1,68 @@
+{
+  "name": "service_ynu",
+  "version": "0.0.1",
+  "authors": [
+    "liudonghua123 <liudonghua123@gmail.com>"
+  ],
+  "description": "the official site of server-center of ynu",
+  "main": "index.html",
+  "moduleType": [
+    "amd",
+    "es6"
+  ],
+  "keywords": [
+    "service",
+    "center",
+    "ynu"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.service.ynu.edu.cn",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.6",
+    "angular": "~1.4.8",
+    "stroll.js": "https://github.com/hakimel/stroll.js.git",
+    "jquery": "~2.1.4",
+    "fontawesome": "~4.5.0",
+    "eonasdan-bootstrap-datetimepicker": "~4.17.37",
+    "angular-lodash-module": "~1.2.0",
+    "angular-chart.js": "~0.8.8"
+  },
+  "install": {
+    "path": {
+      "css": "css",
+      "js": "js",
+      "otf": "fonts",
+      "eot": "fonts",
+      "svg": "fonts",
+      "ttf": "fonts",
+      "woff": "fonts",
+      "woff2": "fonts"
+    },
+    "sources": {
+      "bootstrap": [
+        "bower_components/bootstrap/dist/css/bootstrap.css",
+        "bower_components/bootstrap/dist/css/bootstrap-theme.css",
+        "bower_components/bootstrap/dist/js/bootstrap.js",
+        "bower_components/bootstrap/dist/fonts/*.*"
+      ],
+      "stroll.js": [
+        "bower_components/stroll.js/css/stroll.css",
+        "bower_components/stroll.js/js/stroll.js"
+      ],
+      "fontawesome": [
+        "bower_components/fontawesome/css/font-awesome.css",
+        "bower_components/fontawesome/fonts/*.*"
+      ]
+    },
+    "options": {
+      "includePackageNameInInstallPath": false
+    }
+  }
+}
